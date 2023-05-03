@@ -1,0 +1,77 @@
+@media(min-width:990px){
+    body #cabecalho .actions{}
+    body #cabecalho .actions > li{
+        width: auto;
+        max-width: unset;
+    }
+    body #cabecalho .actions > li > a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+        border: 1px solid transparent;
+        padding: 0 10px;
+        border-radius: 5px;
+    }
+    body #cabecalho .actions > li > a svg.icon{
+        height:26px;
+        width:26px;
+        display:inline-block;
+    }
+    body #cabecalho .carrinho .qtd-carrinho{
+        right: auto;
+        bottom: auto;
+        top: 7px;
+        left: 17px;
+        height: 14px;
+        width: 14px;
+        font-size: 9px;
+        line-height: 14px;
+    }
+}
+.loggedIn a:before{display:none!important}
+.loggedIn span{margin-left:-13px}
+
+.pagina-conta .conta-menu, .pagina-favorito-listar .conta-menu, .pagina-pedido-listar .conta-menu,
+.pagina-conta .cadastro .abas-conta li a, .pagina-conta .conteudo .abas-conta li a, .pagina-favorito-listar .cadastro .abas-conta li a, .pagina-favorito-listar .conteudo .abas-conta li a, .pagina-pedido-listar .cadastro .abas-conta li a, .pagina-pedido-listar .conteudo .abas-conta li a,
+.pagina-conta .cadastro .abas-conteudo, .pagina-conta .conteudo .abas-conteudo, .pagina-favorito-listar .cadastro .abas-conteudo, .pagina-favorito-listar .conteudo .abas-conteudo, .pagina-pedido-listar .cadastro .abas-conteudo, .pagina-pedido-listar .conteudo .abas-conteudo{
+    border: 1px solid #271d1b;
+    border-radius: 5px;
+    box-shadow: 3px 5px #d7dee4;
+    background: #fff;
+    font-size:14px;
+}
+.abas-conta{margin-bottom:20px;}
+body .abas-conta li.active a i,
+body .abas-conta li.active a{
+    background: #00cfa0!important;
+    color: #fff!important;
+    border-color: #00cfa0!important;
+}
+.caixa-dados legend{
+    color:#00cfa0;
+}
+.pagina-conta .cadastro .abas-conteudo .caixa-dados:not(:last-child){
+    border-bottom:1px solid #f2f2f2;
+}
+.pagina-conta .cadastro .abas-conteudo .caixa-dados, .pagina-conta .conteudo .abas-conteudo .caixa-dados, .pagina-favorito-listar .cadastro .abas-conteudo .caixa-dados, .pagina-favorito-listar .conteudo .abas-conteudo .caixa-dados, .pagina-pedido-listar .cadastro .abas-conteudo .caixa-dados, .pagina-pedido-listar .conteudo .abas-conteudo .caixa-dados{
+    border:0
+}
+.pagina-conta .cadastro .abas-conta li a i, .pagina-conta .conteudo .abas-conta li a i, .pagina-favorito-listar .cadastro .abas-conta li a i, .pagina-favorito-listar .conteudo .abas-conta li a i, .pagina-pedido-listar .cadastro .abas-conta li a i, .pagina-pedido-listar .conteudo .abas-conta li a i{font-size:18px;width:auto;margin-right:10px;}
+.abas-conta + .abas-conteudo{margin-bottom:50px;}
+
+.action-links .nivel-dois li a:before{
+    display:none
+}
+.action-links .nivel-dois li a{justify-content:left!important}
+.action-links .nivel-dois li a .customIco{
+    width: 16px;
+    height: 16px;
+    display: block;
+    line-height: 0;
+    margin-right: 10px;
+}
+.action-links .nivel-dois li a .customIco svg{
+    width: 16px;
+    height: 16px;
+}
